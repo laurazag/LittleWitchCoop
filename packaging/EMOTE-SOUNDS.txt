@@ -1,0 +1,21 @@
+CUSTOM EMOTE SOUNDS
+Place WAV files in the game folder under:
+BepInEx\config\LittleWitchCoop\EmoteSounds
+
+carinho.wav   - heart
+risada.wav    - laugh
+oi.wav        - wave
+palminhas.wav - clap
+surpresa.wav  - surprise
+soninho.wav   - sleepy
+flor.wav      - flower
+magia.wav     - magic
+
+Use 16-bit PCM WAV, mono/stereo, 8-96 kHz, up to 5 seconds and 2 MB per file.
+For short files, mono at 22050 Hz is sufficient. Export/convert MP3 to PCM WAV;
+renaming an extension does not convert the audio.
+Files are reloaded each time an emote plays. Missing/invalid files use the
+built-in chime. Share the same WAV files if everyone should hear the same sounds;
+the mod sends emote identifiers, not audio files. Custom sound volume follows
+the emote source level; adjust individual audio files to balance their loudness.
+

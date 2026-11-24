@@ -1,0 +1,13 @@
+/build/
+/dependencies/
+/.vs/
+/.idea/
+*.user
+*.suo
+*.log
+*.es3
+*.es3_meta
+*.wav
+*.ttf
+.env
+.env.*

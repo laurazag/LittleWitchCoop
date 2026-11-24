@@ -1,0 +1,129 @@
+{
+  "version": "0.10.6",
+  "prepared_date": "2026-11-24",
+  "release_artifacts": [
+    {
+      "archive": "LittleWitchCoop-0.10.6-Public-Steam.zip",
+      "archive_sha256": "bce70b633813db1d1dbd00eb80de98856312b38d25600ca94e56d89afa30e32e",
+      "plugin_sha256": "2465a34b2c8fe2de06bcf4704c05c8dd2a04c1a648e6a7642caf7aa9f9e411c1"
+    },
+    {
+      "archive": "LittleWitchCoop-0.10.6-Plugin-Only.zip",
+      "archive_sha256": "47dab200644cd54996ce8e08428f9b11bc2cb362776452646e3b23f8ed95f432",
+      "plugin_sha256": "fc0997e76d900b265633453a54e3927d313d4be22643a3fbc92d5a1f142919fc"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "src/BanStore.cs",
+      "sha256": "9be988084db68a82d49e0d3b0a63e65c022373a71188c15eb295715e4a6f3d1e"
+    },
+    {
+      "path": "src/CapacityButton.cs",
+      "sha256": "4b572b1f45fa5b765fd92b7574e2484674e44a9d02332d75ae469292f58db93d"
+    },
+    {
+      "path": "src/ChatChannel.cs",
+      "sha256": "0a4ac9a42a6789b37eb59a481b683528d8c89454af975294bacf87d7aced66c9"
+    },
+    {
+      "path": "src/ChatMessage.cs",
+      "sha256": "7f055b339b6d8183460df123833839e58def6a706b3e4ae83bf4d327a1e185ec"
+    },
+    {
+      "path": "src/ChatOverlay.cs",
+      "sha256": "2c803f4c7a0530c4221938363fc21d6fbd22d9a3a994b48ae4ddcae5822b1d17"
+    },
+    {
+      "path": "src/EmojiCatalog.cs",
+      "sha256": "42a55378734a1710093776c131d9e6489e9344002163672a6017ea8f937b1265"
+    },
+    {
+      "path": "src/EmojiRenderer.cs",
+      "sha256": "3828507f02a893fec1312fddcaf04f21aed8430ffb6555bf204a5953fb1a4ef2"
+    },
+    {
+      "path": "src/EmoteChoices.cs",
+      "sha256": "03ac2e8f40cc8788809c7fdd7bf6cdc275352244e82d0607389dd0a6b7b6f996"
+    },
+    {
+      "path": "src/EmoteWav.cs",
+      "sha256": "bc7433aca5a9f342f1b9ffbe40797e84866255df92af069a26bb57155b153d07"
+    },
+    {
+      "path": "src/EmoteWheel.cs",
+      "sha256": "bf4107fcdee107e47b3b65c795275c8e9a9d0724d6052fc0f222205a84be1542"
+    },
+    {
+      "path": "src/HoldRepeat.cs",
+      "sha256": "aee645329812703386d7f288a4b7a24831ccd857ed37dd4aa8e7e72806b68767"
+    },
+    {
+      "path": "src/ICoopRoom.cs",
+      "sha256": "2dab1a78462bbc1f9c7504dc1b06ac40057debb81792d4424d6324d54a24e4c6"
+    },
+    {
+      "path": "src/L10n.cs",
+      "sha256": "314b08b1b91343f8ec74cd073ce8d2d506443401ee4805e25ff70219371f2dc6"
+    },
+    {
+      "path": "src/LobbyListing.cs",
+      "sha256": "bd136f5435b85f7fb266cee4ceb4456172a5cc7cfdc61417d20d5ae61b9b5516"
+    },
+    {
+      "path": "src/ModerationAlert.cs",
+      "sha256": "dff9ee61eb6d10dadb0950d13d8036c41b3d8e6f98726b43cd42f7e24e6766a8"
+    },
+    {
+      "path": "src/NetworkRoom.cs",
+      "sha256": "da69129d9ac39826002702e824ac6dbb538770bede7182a8be71f790b70309fd"
+    },
+    {
+      "path": "src/PlayerListPanel.cs",
+      "sha256": "277ac289482a2905bd543a5e939ff62aedc2eb775b397697e9bf424f29b25232"
+    },
+    {
+      "path": "src/PlayerSnapshot.cs",
+      "sha256": "fd006e87af9a93d1b712de16dbb09a47fd8e49d586e68d96e6cfee3a92af0e46"
+    },
+    {
+      "path": "src/Plugin.cs",
+      "sha256": "e53b4ac17e14c73fefc916d8919af651864f220f78494c7ef3c1484819827468"
+    },
+    {
+      "path": "src/PrivateRoomCode.cs",
+      "sha256": "7bbe1a1e167b2b72a4b0bc44bcc944f395ac4dafa31be1326b3a88fae69ded8b"
+    },
+    {
+      "path": "src/RemotePlayer.cs",
+      "sha256": "2859d104162fc7e309dfc8eac431509a3271478f23921c45b5b179138279f68a"
+    },
+    {
+      "path": "src/RoomState.cs",
+      "sha256": "10605693cce5befff602c68b5bd9a1a34d4ff1c75f24626aff06bdd7036ebf3a"
+    },
+    {
+      "path": "src/SteamLobbyBrowser.cs",
+      "sha256": "c02f2cca1a2dfa8721252cc3d39f795644c7c41271cd51990b92d91e01068f2f"
+    },
+    {
+      "path": "src/SteamLobbyPanel.cs",
+      "sha256": "91846563ad996958df62238b597008b269227586bfd5bb7d6fe85ff0c1a5df90"
+    },
+    {
+      "path": "src/SteamPingPacket.cs",
+      "sha256": "c6c01a7732c86990829bce2c810bde88b8fb5005b26beca660652d7a180567a7"
+    },
+    {
+      "path": "src/SteamRoom.cs",
+      "sha256": "c7978dbefb00554ff96016cbc3541126cf26b7168af81593820e12f70bc1aea1"
+    }
+  ],
+  "validation": [
+    "Portable source build passed",
+    "PrivateRoomCodeTests passed",
+    "LobbyListingTests passed",
+    "MultiRoomTests passed"
+  ],
+  "security_note": "Build/tests are not a malware assessment or an antivirus clearance."
+}
